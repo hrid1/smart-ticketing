@@ -16,9 +16,9 @@
 
   <body class="font-raleway">
     <!-- header section -->
-    <header>
+    <header class="container mx-auto">
       <!-- Navbar -->
-      <nav>
+      <nav class="my-6">
         <div class="navbar bg-base-100">
           <div class="navbar-start">
             <div class="dropdown">
@@ -59,13 +59,73 @@
             </ul>
           </div>
           <div class="navbar-end">
-            <a class="btn rounded-xl  px-5 bg-green-50 text-green-500"
+            <a class="btn rounded-xl px-5 bg-green-50 text-green-500"
               >Bus
               <img src="./images/bus-icon.png" alt="" />
             </a>
           </div>
         </div>
       </nav>
+      <!-- hero -->
+
+      <section class=" md:relative">
+        <div
+          class="hero  min-h-[550px] rounded-3xl"
+          style="background-image: url('./images/banner.png')"
+        >
+          <div class="hero-overlay bg-opacity-40 rounded-3xl"></div>
+
+          <div
+            class=" h-full w-full flex flex-col items-center justify-center space-y-8 text-center mb-10"
+          >
+            <div class="text-6xl font-extrabold space-y-6">
+              <h2 class="text-white ">
+                End-to-End Travel with
+              </h2>
+              <h2 class="text-green-500 ">
+                X Paribahan
+              </h2>
+            </div>
+
+            <p class="font-inter text-lg text-[#FFFFFF]">
+              Yes, you can run unit tests and view the results directly within
+              the app. <br />The integrated testing features allow for a
+              streamlined .
+            </p>
+
+            <button class="btn bg-green-500 rounded-lg border-none">
+              Buy Tickets
+            </button>
+          </div>
+        </div>
+      
+
+      <!-- header info -->
+       <div class="font-inter  md:absolute md:-bottom-[70px] flex flex-col md:flex-row justify-center gap-4 md:gap-12 bg-whit w-full" >
+        <div class="flex  gap-4 justify-center items-center md:w-1/4 py-8 rounded-2xl border-b-[3px] border-b-green-500 bg-white">
+          <img src="./images/people.png" alt="">
+          <div>
+            <h3 class="font-bold text-4xl mb-2">500k+</h3>
+            <p class="text-lg">Registered users</p>
+          </div>
+        </div>
+        <div class="flex gap-4 justify-center items-center md:w-1/4 py-8 rounded-2xl border-b-[3px] border-b-green-500 bg-white">
+          <img src="./images/ticket-cupon.png" alt="">
+          <div>
+            <h3 class="font-bold text-4xl mb-2">1.7 lacks</h3>
+            <p class="text-lg">Registered users</p>
+          </div>
+        </div>
+        <div class="flex gap-4 justify-center items-center md:w-1/4 py-8 rounded-2xl border-b-[3px] border-b-green-500 bg-white">
+          <img src="./images/stoppage.png" alt="">
+          <div>
+            <h3 class="font-bold text-4xl mb-2">80K+</h3>
+            <p class="text-lg">Registered users</p>
+          </div>
+        </div>
+      </div>
+
+    </section>
     </header>
 
     <!-- main section -->
